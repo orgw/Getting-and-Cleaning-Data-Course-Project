@@ -45,16 +45,27 @@
 
 #Variables for tidy data set in the project
 ======================================
-AL: activity labels data
-AL2: second column of activity labels with descriptive names
-FT: features data
-M_SD: vector indicating those including only mean() and SD() in FT
-test1,test2,test3: test data, test1 only takes FT data from M_SD
-train1,train2,train3: train data, train1 only takes FT data from M_SD
-test: merged test data
-train: merged train data
-merged_data: test and train merged
-descriptive_var: only take the names of M_SD in FT_names
-tidy_summary: take merge data group by subject number and activity and summarize the mean
-names_for_summary: new name for tidy_summary
+#AL: activity labels data
+
+#AL2: second column of activity labels with descriptive names
+
+#FT: features data
+
+#M_SD: vector indicating those including only mean() and SD() in FT
+
+#test1,test2,test3: test data, test1 only takes FT data from M_SD
+
+#train1,train2,train3: train data, train1 only takes FT data from M_SD
+
+#test: merged test data
+
+#train: merged train data
+
+#merged_data: test and train merged
+
+#descriptive_var: only take the names of M_SD in FT_names
+
+#tidy_summary: take merge data group by subject number and activity and summarize the mean
+
+#names_for_summary: new name for tidy_summary
 
